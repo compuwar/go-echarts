@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-echarts/go-echarts/v2/types"
+	"github.com/compuwar/go-echarts/v2/types"
 )
 
 func init() {
@@ -19,7 +19,7 @@ func init() {
 // Initialization contains options for the canvas.
 type Initialization struct {
 	// HTML title
-	PageTitle string `default:"Awesome go-echarts"`
+	PageTitle string `default:"Chart"`
 
 	// Width of canvas
 	Width string `default:"900px"`
